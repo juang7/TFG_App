@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jose.investigacionapp.MainActivity">
+
+    <item android:id="@+id/home"
+        android:title="Inicio"
+        android:icon="@drawable/home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/members"
+        android:title="Miembros"
+        android:icon="@drawable/miembros"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/alergia"
+        android:title="Alergias"
+        android:icon="@drawable/miembros"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/alergiaPersona"
+        android:title="Alergias Personas"
+        android:icon="@drawable/miembros"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/dblp"
+        android:title="@string/dblp"
+        android:icon="@drawable/dblp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/newmember"
+        android:title="Nuevo Miembro"
+        android:icon="@drawable/newmember"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/newalergia"
+        android:title="Nueva Alergia"
+        android:icon="@drawable/newmember"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/anadirAlergiaPersona"
+        android:title="Nueva Alergia per"
+        android:icon="@drawable/newmember"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/deletegroup"
+        android:title="Eliminar Grupo"
+        android:icon="@drawable/deletemember"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+</menu>

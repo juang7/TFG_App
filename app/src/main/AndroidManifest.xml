@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juangarca.tfg">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.juangarca.tfg.DBLPActivity"
+            android:label="@string/title_activity_dblp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.NewMemberActivity"
+            android:label="@string/title_activity_new_member"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.NewAlergia"
+            android:label="@string/title_activity_new_alergia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.DeleteGroupActivity"
+            android:label="@string/title_activity_delete_group"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.MembersActivity"
+            android:label="@string/title_activity_members"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.MostrarAlergia"
+            android:label="@string/title_activity_alergia"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.example.juangarca.tfg.MostrarAlergiaPersona"
+            android:label="@string/title_activity_alergiaPersona"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.juangarca.tfg.AnadirAlergiaPersona"
+            android:label="@string/title_activity_anadirAlergiaPersona"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="com.example.juangarca.tfg.NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

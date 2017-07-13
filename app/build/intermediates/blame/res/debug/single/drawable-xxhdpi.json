@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Development\\APP\\TFG\\TFG\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\newmember.png",
+        "source": "C:\\Development\\APP\\TFG\\TFG\\app\\src\\main\\res\\drawable-xxhdpi\\newmember.png"
+    },
+    {
+        "merged": "C:\\Development\\APP\\TFG\\TFG\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\deletemember.png",
+        "source": "C:\\Development\\APP\\TFG\\TFG\\app\\src\\main\\res\\drawable-xxhdpi\\deletemember.png"
+    },
+    {
+        "merged": "C:\\Development\\APP\\TFG\\TFG\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home.png",
+        "source": "C:\\Development\\APP\\TFG\\TFG\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Development\\APP\\TFG\\TFG\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\miembros.png",
+        "source": "C:\\Development\\APP\\TFG\\TFG\\app\\src\\main\\res\\drawable-xxhdpi\\miembros.png"
+    },
+    {
+        "merged": "C:\\Development\\APP\\TFG\\TFG\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\dblp.png",
+        "source": "C:\\Development\\APP\\TFG\\TFG\\app\\src\\main\\res\\drawable-xxhdpi\\dblp.png"
+    }
+]

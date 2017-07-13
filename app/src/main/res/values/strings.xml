@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TFGApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="miembros">Miembros</string>
+    <string name="dblp">DBLP</string>
+    <string name="newmember">NewMember</string>
+    <string name="deletemember">DeleteMember</string>
+    <string name="title_activity_miembros">Miembros</string>
+    <string name="title_activity_dblp">DBLPActivity</string>
+    <string name="title_activity_new_member">NewMemberActivity</string>
+    <string name="title_activity_new_alergia">NewAlergia</string>
+    <string name="title_activity_delete_group">DeleteGroupActivity</string>
+    <string name="title_activity_members">MembersActivity</string>
+    <string name="title_activity_alergia">MostrarAlergia</string>
+    <string name="title_activity_alergiaPersona">MostrarAlergiaPersona</string>
+    <string name="title_activity_anadirAlergiaPersona">AñadirAlergiaPersona</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="appwidget_text">TFGApp</string>
+    <string name="add_widget">Add widget</string>
+</resources>
